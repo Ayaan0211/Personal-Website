@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #E7F6F2;
+}
+
+/* Nav Bar */
+.nav {
+  position: sticky;
+  top: 0;
+}
+
+ul.nav {
+  list-style-type: none;
+  margin-bottom: 10px;
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+li.nav {
+  float: left;
+  width: 25%;
+  background-color: #A5C9CA;
+  margin-bottom: 40px;
+}
+
+li.nav a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+li.nav a:hover {
+  background-color: #395B64;
+}
+
+li.nav a:active {
+  background-color: black;
+}
+
+/* Content Alignment & Styling */
+.title {
+  text-align: center;
+  margin-top: 15px;
+}
+
+#about, #interests, #achievements, #contact {
+  width: 75vw;
+  height: 50vh;
+  margin-left: 10vw;
+  margin-top: 40px;
+  padding-top: 50px; 
+  padding-bottom: 50px;
+  border-style: solid;
+  border-width: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+background-image: url('cool-background.png');
+  background-size: 75vw 75vh;
+}
+
+.heading {
+  padding-right: 100px;
+}
+
+div > ul {
+  margin-left: 15px;
+}
+
+div > P {
+  margin-bottom: 10px;
+}
+
+.pics {
+  height: 100%;
+  width: 100%;
+}
+
+/* Content Font Styling */
+.title {
+  font-size: 30px;
+  font-family: 'Lobster', cursive;
+  color: #003b4c;
+}
+
+.heading {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+  color: #1b333a;
+}
+
+li.nav {
+  font-size: 22px;
+  font-family: 'Anton', sans-serif;
+}
+
+div > p {
+  font-size: 30px;
+  font-family: 'Pacifico', cursive;
+}
+
+ul > li {
+  font-size: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+/* Icons Styling */
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.icons {
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-size: 75px;
+  color: #A5C9CA;
+}
+
+/* Title Animation */
+.animate
+{
+  background-image: linear-gradient(
+    -225deg,
+    #395B64 0%,
+    #A5C9CA 29%,
+    #6aa293 67%,
+    #ffffff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s infinite;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 100% center;
+  }
+}

@@ -63,8 +63,9 @@ li.nav a:active {
   align-items: center;
   justify-content: center;
   
-background-image: url('cool-background.png');
+  /* background-image: url('cool-background.png'); */
   background-size: 75vw 75vh;
+  background-color: white;
 }
 
 .heading {
@@ -100,7 +101,7 @@ div > P {
 
 li.nav {
   font-size: 22px;
-  font-family: 'cursive', sans-serif;
+  font-family: 'Anton', sans-serif;
 }
 
 div > p {

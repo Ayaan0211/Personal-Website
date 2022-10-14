@@ -41,7 +41,7 @@ li.nav a:hover {
 }
 
 li.nav a:active {
-  background-color: white;
+  background-color: black;
 }
 
 /* Content Alignment & Styling */
@@ -111,6 +111,7 @@ div > p {
 ul > li {
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
+  color: white;
 }
 
 /* Icons Styling */

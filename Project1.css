@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: blue;
+  background-color: #E7F6F2;
 }
 
 /* Nav Bar */
@@ -100,7 +100,7 @@ div > P {
 
 li.nav {
   font-size: 22px;
-  font-family: 'Anton', sans-serif;
+  font-family: 'cursive', sans-serif;
 }
 
 div > p {

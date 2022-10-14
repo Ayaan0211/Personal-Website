@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: #E7F6F2;
+  background-color: blue;
 }
 
 /* Nav Bar */
@@ -111,7 +111,6 @@ div > p {
 ul > li {
   font-size: 25px;
   font-family: 'Josefin Sans', sans-serif;
-  color: white;
 }
 
 /* Icons Styling */

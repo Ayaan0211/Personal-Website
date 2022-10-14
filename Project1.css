@@ -24,7 +24,7 @@ ul.nav {
 li.nav {
   float: left;
   width: 25%;
-  background-color: #A5C9CA;
+  background-color: white;
   margin-bottom: 40px;
 }
 
@@ -63,9 +63,8 @@ li.nav a:active {
   align-items: center;
   justify-content: center;
   
-  /* background-image: url('cool-background.png'); */
+  background-image: url('cool-background.png');
   background-size: 75vw 75vh;
-  background-color: white;
 }
 
 .heading {
